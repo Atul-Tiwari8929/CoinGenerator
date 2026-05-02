@@ -6,6 +6,7 @@ import stores from "./stores";
 
 function App(){
 
+    // starts from here
  return (
     <Provider store={stores}>
         <CoinCreate></CoinCreate>
